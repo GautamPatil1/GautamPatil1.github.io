@@ -1,4 +1,10 @@
 {
-  "name" : "Gautam Patil",
-  
+"type": "greeting",
+
+"user": ["\"Hello\"", "\"Hi\"", "\"What's up\""],
+
+"response": ["\"I'm doing good!\"", "\"Hey!\", \"It's good to see you!\""],
+
+"context": ["\"\""]
+
 }
