@@ -7,7 +7,7 @@
 
 body{
     background-color: #f5f5f5;
-    background-image: url('image.png');
+    background-image: url('image2.jpg');
     background-size: cover;
 
     
@@ -75,7 +75,7 @@ h1{
     padding: 15px;
     color: black;
     font-size: 2rem;
-    background-image: url('https://emergeapp.net/wp-content/uploads/2017/01/Small-Business-Forum-online-seller-forums.png');
+    background-image: url('forum.png');
     background-size: cover;
     background-color: blue;
     height: 20rem;
