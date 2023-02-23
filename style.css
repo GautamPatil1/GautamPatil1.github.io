@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #f5f5f5;
+    background-image: url('image.png');
+    background-size: cover;
+
+    
+
+}
+.top-container{
+    
+    padding: 2rem;
+    /* background-color: red; */
+}
+
+.title{
+    background: rgba(0,0,0,0.5);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0 25rem;
+    color: #fff;
+}
+
+.title:hover{
+    background: rgba(0,0,0,0.7);
+    transition: .15s ease-in-out;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.bottom-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+    height: 60vh;
+    background-color: transparent; 
+    
+}
+
+.map{
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: 15px;
+    color: black;
+    font-size: 2rem;
+    background-image: url('map.jpg');
+    background-color: blue;
+    height: 20rem;
+    width: 35rem;
+}
+.map:hover{
+    border: 10px solid white;
+    transition: .2s ease-in-out;
+}
+.text{
+    border-radius: 2.5rem;
+    background: rgba(0,0,0,0.3);
+}
+.forum{
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: 15px;
+    color: black;
+    font-size: 2rem;
+    background-image: url('https://emergeapp.net/wp-content/uploads/2017/01/Small-Business-Forum-online-seller-forums.png');
+    background-size: cover;
+    background-color: blue;
+    height: 20rem;
+    width: 35rem;
+}
+
+.forum .text{
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+}
+.forum:hover{
+    border: 10px solid white;
+    transition: .2s ease-in-out;
+}
+a, a:visited{
+    text-decoration: none;
+
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:20rem;
+    width:35rem;
+}
+.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}
+
+.footer{
+    margin: 0 7rem;
+    padding: 1rem;
+    background: rgba(0,0,0,0.3);
+    border: 2px solid white;
+    border-radius: 2.5rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.footer:hover{
+    background: rgba(0,0,0,0.5);
+    transition: .15s ease-in-out;
+    border: 2px solid red;
+}
+
+
+@media screen and (max-width: 768px){
+
+
+    .title{
+        margin: 0;
+    }
+    .bottom-container{
+        margin-top: 5rem;
+        flex-direction: column;
+        padding: 1rem;
+        margin-bottom: 7rem;
+        
+    }
+    a{
+        text-decoration: none;
+    }
+    a:visited{
+        text-decoration: none;
+    }
+    .map{
+        padding: 2rem;
+        width: 100%;
+    }
+
+    .forum{
+        margin-top: 2rem;
+        padding:1rem;
+        width: 100%;
+    }
+    .forum .text{
+        padding: 1rem;;
+    }
+    .text{
+        margin-top: 1.5rem;
+    }
+    .footer{
+        margin:1.5rem;
+        border: solid white 2px;
+        border-radius: .5rem;
+        background: rgba(0,0,0,0.3);
+        color:white;
+    }
+}
+
+
+    
